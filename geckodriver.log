@@ -1,13 +1,59 @@
-1583686428700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\OComp\\AppData\\Local\\Temp\\rust_mozprofile.jgbqsmXhdo9C"
-1583686429234	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
-1583686430207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1583686430207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1583686430207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1583686430207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1583725622160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\OComp\\AppData\\Local\\Temp\\rust_mozprofile.jCTmAjcXgtMF"
+1583725622891	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583725623936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583725623936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583725623936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583725623936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1583686432200	Marionette	INFO	Listening on port 53073
-1583686432337	Marionette	WARN	TLS certificate errors will be ignored for this session
-1583686420045	Marionette	INFO	Stopped listening on port 52993
+1583725626437	Marionette	INFO	Listening on port 57839
+1583725626903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583725649385	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+dules/Promise-backend.js:961:38
+walkerLoop@resource://gre/modules/Promise-backend.js:845:29
+scheduleWalkerLoop/<@resource://gre/modules/Promise-backend.js:778:14
+
+*************************
+1583725321039	Marionette	INFO	Stopped listening on port 57417
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+or: Channel error: cannot send/recv
+
+lHEAACBAm2BjgRRISAhArLAAAAI/d=1/exm=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,csi,d,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff/ed=1/dg=2/ct=zgms/rs=ACT90oG5qDBKUbWpBZWm3hm8RU7SeN9U8Q/m=F8FRnd,IkchZc,MkHyGd,NBZ7u,NpD4ec,OG6ZHd,RqxLvf,SvnKM,T6sTsf,T7XTS,TxZWcc,URQPYc,WgDvvc,Wq6lxf,XjCeUc,aCZVp,aa,aam1T,abd,aspn,async,bgd,dvl,eN4qad,exdc,foot,kyn,lazG7b,lli,lu,m,mI3LFb,mUpTid,mpck,mu,o02Jie,pB6Zqd,qik19b,rHjpXd,runuse,sb_wiz,sf,tl,uiNkee,vs,wkrYee,xc1DSd,xz7cCd,zbML3c?xjs=s1:158:1
+s_HTg@https://www.google.com/xjs/_/js/k=xjs.s.en_GB.OuGZV1HPekQ.O/ck=xjs.s.zVSLCIsGpL4.L.F4.O/am=AAAAAEsAZt0AcP4HAQBclHEAACBAm2BjgRRISAhArLAAAAI/d=1/exm=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,csi,d,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff/ed=1/dg=2/ct=zgms/rs=ACT90oG5qDBKUbWpBZWm3hm8RU7SeN9U8Q/m=F8FRnd,IkchZc,MkHyGd,NBZ7u,NpD4ec,OG6ZHd,RqxLvf,SvnKM,T6sTsf,T7XTS,TxZWcc,URQPYc,WgDvvc,Wq6lxf,XjCeUc,aCZVp,aa,aam1T,abd,aspn,async,bgd,dvl,eN4qad,exdc,foot,kyn,lazG7b,lli,lu,m,mI3LFb,mUpTid,mpck,mu,o02Jie,pB6Zqd,qik19b,rHjpXd,runuse,sb_wiz,sf,tl,uiNkee,vs,wkrYee,xc1DSd,xz7cCd,zbML3c?xjs=s1:162:139
+s_8Tg@https://www.google.com/xjs/_/js/k=xjs.s.en_GB.OuGZV1HPekQ.O/ck=xjs.s.zVSLCIsGpL4.L.F4.O/am=AAAAAEsAZt0AcP4HAQBclHEAACBAm2BjgRRISAhArLAAAAI/d=1/exm=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,csi,d,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff/ed=1/dg=2/ct=zgms/rs=ACT90oG5qDBKUbWpBZWm3hm8RU7SeN9U8Q/m=F8FRnd,IkchZc,MkHyGd,NBZ7u,NpD4ec,OG6ZHd,RqxLvf,SvnKM,T6sTsf,T7XTS,TxZWcc,URQPYc,WgDvvc,Wq6lxf,XjCeUc,aCZVp,aa,aam1T,abd,aspn,async,bgd,dvl,eN4qad,exdc,foot,kyn,lazG7b,lli,lu,m,mI3LFb,mUpTid,mpck,mu,o02Jie,pB6Zqd,qik19b,rHjpXd,runuse,sb_wiz,sf,tl,uiNkee,vs,wkrYee,xc1DSd,xz7cCd,zbML3c?xjs=s1:195:176
+s_9Tg.prototype.ub@https://www.google.com/xjs/_/js/k=xjs.s.en_GB.OuGZV1HPekQ.O/ck=xjs.s.zVSLCIsGpL4.L.F4.O/am=AAAAAEsAZt0AcP4HAQBclHEAACBAm2BjgRRISAhArLAAAAI/d=1/exm=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,csi,d,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff/ed=1/dg=2/ct=zgms/rs=ACT90oG5qDBKUbWpBZWm3hm8RU7SeN9U8Q/m=F8FRnd,IkchZc,MkHyGd,NBZ7u,NpD4ec,OG6ZHd,RqxLvf,SvnKM,T6sTsf,T7XTS,TxZWcc,URQPYc,WgDvvc,Wq6lxf,XjCeUc,aCZVp,aa,aam1T,abd,aspn,async,bgd,dvl,eN4qad,exdc,foot,kyn,lazG7b,lli,lu,m,mI3LFb,mUpTid,mpck,mu,o02Jie,pB6Zqd,qik19b,rHjpXd,runuse,sb_wiz,sf,tl,uiNkee,vs,wkrYee,xc1DSd,xz7cCd,zbML3c?xjs=s1:196:126
+s_a.W0@https://www.google.com/xjs/_/js/k=xjs.s.en_GB.OuGZV1HPekQ.O/ck=xjs.s.zVSLCIsGpL4.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAAEsAZt0AcP4HAQBclHEAACBAm2BjgRRISAhArLAAAAI/d=1/dg=2/ct=zgms/rs=ACT90oG5qDBKUbWpBZWm3hm8RU7SeN9U8Q:414:210
+s_a.dispatchEvent@https://www.google.com/xjs/_/js/k=xjs.s.en_GB.OuGZV1HPekQ.O/ck=xjs.s.zVSLCIsGpL4.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAAEsAZt0AcP4HAQBclHEAACBAm2BjgRRISAhArLAAAAI/d=1/dg=2/ct=zgms/rs=ACT90oG5qDBKUbWpBZWm3hm8RU7SeN9U8Q:412:385
+s_B0.prototype.Da@https://www.google.com/xjs/_/js/k=xjs.s.en_GB.OuGZV1HPekQ.O/ck=xjs.s.zVSLCIsGpL4.L.F4.O/am=AAAAAEsAZt0AcP4HAQBclHEAACBAm2BjgRRISAhArLAAAAI/d=1/exm=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,csi,d,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff/ed=1/dg=2/ct=zgms/rs=ACT90oG5qDBKUbWpBZWm3hm8RU7SeN9U8Q/m=F8FRnd,IkchZc,MkHyGd,NBZ7u,NpD4ec,OG6ZHd,RqxLvf,SvnKM,T6sTsf,T7XTS,TxZWcc,URQPYc,WgDvvc,Wq6lxf,XjCeUc,aCZVp,aa,aam1T,abd,aspn,async,bgd,dvl,eN4qad,exdc,foot,kyn,lazG7b,lli,lu,m,mI3LFb,mUpTid,mpck,mu,o02Jie,pB6Zqd,qik19b,rHjpXd,runuse,sb_wiz,sf,tl,uiNkee,vs,wkrYee,xc1DSd,xz7cCd,zbML3c?xjs=s1:168:284
+s_iia@https://www.google.com/xjs/_/js/k=xjs.s.en_GB.OuGZV1HPekQ.O/ck=xjs.s.zVSLCIsGpL4.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAAEsAZt0AcP4HAQBclHEAACBAm2BjgRRISAhArLAAAAI/d=1/dg=2/ct=zgms/rs=ACT90oG5qDBKUbWpBZWm3hm8RU7SeN9U8Q:334:243
+s_gia@https://www.google.com/xjs/_/js/k=xjs.s.en_GB.OuGZV1HPekQ.O/ck=xjs.s.zVSLCIsGpL4.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAAEsAZt0AcP4HAQBclHEAACBAm2BjgRRISAhArLAAAAI/d=1/dg=2/ct=zgms/rs=ACT90oG5qDBKUbWpBZWm3hm8RU7SeN9U8Q:335:249
+s_eia/b<@https://www.google.com/xjs/_/js/k=xjs.s.en_GB.OuGZV1HPekQ.O/ck=xjs.s.zVSLCIsGpL4.L.F4.O/m=Fkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,cr,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am=AAAAAEsAZt0AcP4HAQBclHEAACBAm2BjgRRISAhArLAAAAI/d=1/dg=2/ct=zgms/rs=ACT90oG5qDBKUbWpBZWm3hm8RU7SeN9U8Q:331:277
+
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 114: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 10296, MediaDecoderStateMachine #1] WARNING: Decoder=1e9c40f3400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 10296, MediaDecoderStateMachine #1] WARNING: Decoder=1e9c40f3400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1583693189559	Marionette	INFO	Stopped listening on port 58524
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
